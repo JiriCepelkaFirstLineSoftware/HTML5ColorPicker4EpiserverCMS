@@ -44,3 +44,14 @@ Works with:
 * Firefox
 * Chrome
 * Edge
+
+### Features
+
+* Edge is provided only with HTML5 input of type color 
+    ```HTML
+    <input type="color …>
+    ```
+* In Chrome and Firefox you can:
+    * Observer full state persistance (reloading, switching between view modes [edit, preview, all-props]) of your color refinement
+    * Luminosity change does not trigger model change unless it is comfirmed by lossing control focus, e.g. by click in document body.
+    * Change luminosity by dragging or by mouse wheel.
