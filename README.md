@@ -1,7 +1,7 @@
 # HTML5ColorPicker4EpiserverCMS
 HTML 5 input based color picker with luminosity refinement. This is Dojo widget for Episerver CMS providing the option to pick a color using HTML5 input element of type color and option to refine the luminosity of color.
 
-You can find basic version without refinement at [HTML5EpiserverCMSColorPicker](https://github.com/JiriCepelkaFirstLineSoftware/HTML5EpiserverCMSColorPicker/edit/master/README.md).
+You can find basic version without refinement at [HTML5EpiserverCMSColorPicker](https://github.com/JiriCepelkaFirstLineSoftware/HTML5EpiserverCMSColorPicker).
 
 ### License
 MIT
