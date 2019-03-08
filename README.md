@@ -12,12 +12,12 @@ Construed from [knowit/ColorPickerEditor](https://github.com/knowit/ColorPickerE
 ### How to
 
 1. Place the editor files in your solution. Best fits in ~/ClientResources/Scripts/Editors. Otherwise you have to change paths.
-2. Edit the HTML5ColorPicker.js and change prefix path in declaration to your site prefix. That you can found in root folder module.config.
+2. Edit the HTML5ColorPicker2.js and change prefix path in declaration to your site prefix. That you can found in root folder module.config.
 
     ##### Script
 
     ``` javascript
-    return declare("YOUR_SITE_PREFIX/Editors/HTML5ColorPicker", [_Widget, _TemplatedMixin, _CssStateMixin],
+    return declare("YOUR_SITE_PREFIX/Editors/HTML5ColorPicker2", [_Widget, _TemplatedMixin, _CssStateMixin],
      ```
     ##### Config
 
@@ -31,7 +31,7 @@ Construed from [knowit/ColorPickerEditor](https://github.com/knowit/ColorPickerE
     
 3. Decorate and setup the property.
     ```c#
-    [ClientEditor(ClientEditingClass = "alloy/Editors/HTML5ColorPicker")]
+    [ClientEditor(ClientEditingClass = "alloy/Editors/HTML5ColorPicker2")]
     public virtual string Color => this.GetPropertyValue(t => t.Color).Split(',')[0];
     ```
 ### Encouragement
