@@ -55,4 +55,4 @@ Works with:
     * Luminosity change by drag or mouse wheel.    
     * Full state persistance (reloading, switching between view modes [edit, preview, all-props]) of color lumininosity refinement.
     * Luminosity change does not trigger model change unless it is comfirmed by losing control focus, e.g. by click in document body.
-    
+    * Double click resets the control to initial color luminosity value.
