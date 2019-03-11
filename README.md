@@ -31,8 +31,12 @@ Construed from [knowit/ColorPickerEditor](https://github.com/knowit/ColorPickerE
     
 3. Decorate and setup the property.
     ```c#
-    [ClientEditor(ClientEditingClass = "alloy/Editors/HTML5ColorPicker2")]
-    public virtual string Color => this.GetPropertyValue(t => t.Color)?.Split(',')[0];
+    [ClientEditor(ClientEditingClass = "alloy/Editors/HTML5ColorPicker2/HTML5ColorPicker2")]
+    public virtual string ColorTest3
+    {
+      get => this.GetPropertyValue(t => t.ColorTest3)?.Split(',')[0];
+      set => this.SetPropertyValue(t => t.ColorTest3, value);
+    }
     ```
 ### Encouragement
 
