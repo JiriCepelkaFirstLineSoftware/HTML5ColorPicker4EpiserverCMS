@@ -1,7 +1,7 @@
 # HTML5ColorPicker4EpiserverCMS
 HTML 5 input based color picker with luminosity refinement. This is Dojo widget for Episerver CMS providing the option to pick a color using HTML5 input element of type color and option to refine the luminosity of color.
 
-You can find basic version without refinement at [HTML5EpiserverCMSColorPicker](https://github.com/JiriCepelkaFirstLineSoftware/HTML5EpiserverCMSColorPicker/edit/master/README.md).
+You can find basic version without refinement at [HTML5EpiserverCMSColorPicker](https://github.com/JiriCepelkaFirstLineSoftware/HTML5EpiserverCMSColorPicker).
 
 ### License
 MIT
@@ -32,7 +32,7 @@ Construed from [knowit/ColorPickerEditor](https://github.com/knowit/ColorPickerE
 3. Decorate and setup the property.
     ```c#
     [ClientEditor(ClientEditingClass = "alloy/Editors/HTML5ColorPicker2")]
-    public virtual string Color => this.GetPropertyValue(t => t.Color).Split(',')[0];
+    public virtual string Color => this.GetPropertyValue(t => t.Color)?.Split(',')[0];
     ```
 ### Encouragement
 
@@ -55,4 +55,4 @@ Works with:
     * Luminosity change by drag or mouse wheel.    
     * Full state persistance (reloading, switching between view modes [edit, preview, all-props]) of color lumininosity refinement.
     * Luminosity change does not trigger model change unless it is comfirmed by losing control focus, e.g. by click in document body.
-    
+    * Double click resets the control to initial color luminosity value.
