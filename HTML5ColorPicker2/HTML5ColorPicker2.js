@@ -147,7 +147,7 @@
             script = 'HTML5ColorPicker2';
           }
 
-          let id = 'HTML5ColorPicker2_Css';
+          let id = 'HTML5ColorPicker2Css';
           if (!document.getElementById(id)) {
             var head = document.getElementsByTagName('head')[0];
             var link = document.createElement('link');
