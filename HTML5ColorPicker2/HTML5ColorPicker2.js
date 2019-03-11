@@ -219,7 +219,7 @@
         _moveSlide: function (e, self) {
           
           self._slide(
-            (Math.sqrt((e.clientX - self._x) * (e.clientX - self._x) + (e.clientY - self._y) * (e.clientY - self._y))
+            Math.round((Math.sqrt((e.clientX - self._x) * (e.clientX - self._x) + (e.clientY - self._y) * (e.clientY - self._y)))
               + self._slideCoefficient)
             * (e.clientX < self._x || e.clientY < self._y ? 1 : -1));
 
