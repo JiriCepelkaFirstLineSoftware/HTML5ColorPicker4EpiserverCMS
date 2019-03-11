@@ -1,0 +1,9 @@
+﻿.HTML5ColorPicker .Picker {
+  width: 101px;
+  height: 32px;
+  border: 1px solid #929ba4;
+}
+
+.HTML5ColorPicker .Control {
+  display: none;
+}
