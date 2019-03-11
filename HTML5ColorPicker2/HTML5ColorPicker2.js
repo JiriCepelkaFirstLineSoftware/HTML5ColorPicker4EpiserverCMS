@@ -24,7 +24,7 @@
     _TemplatedMixin,
     _CssStateMixin,
   ) {
-    return declare("alloy/Editors/HTML5ColorPicker2/HTML5ColorPicker2", [_Widget, _TemplatedMixin, _CssStateMixin],
+    return declare("alloy/Editors/HTML5ColorPicker2", [_Widget, _TemplatedMixin, _CssStateMixin],
       {
         _slideCoefficient: 0,
         _x: 0,
