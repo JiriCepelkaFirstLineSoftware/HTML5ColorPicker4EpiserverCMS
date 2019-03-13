@@ -101,8 +101,8 @@
 
               if (typeof HTML5ColorPicker_DoubleClickTimeOut === "undefined") {
                 HTML5ColorPicker_DoubleClickTimeOut = setTimeout(function () {
-                  self.HTML5ColorPicker.click();
                   delete HTML5ColorPicker_DoubleClickTimeOut;
+                  self.HTML5ColorPicker.click();                  
                 }, 350);
               }
               else {
